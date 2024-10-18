@@ -34,3 +34,25 @@ The backend of the project is an API designed to serve product and information d
 - **Admin Dashboard**: Backend admin interface for managing the website, including product listings, blog posts, orders, and user accounts.
 - **Authentication**: Utilizes Laravel's built-in authentication and API token system to secure endpoints.
 - **Database Management**: The backend handles all database interactions using Laravel's Eloquent ORM, ensuring data consistency and integrity.
+
+---
+
+## Setup Instructions (Frontend & Backend)
+
+To set up and run the Laravel project, follow the instructions below to install the necessary dependencies and serve both the frontend and backend.
+
+### 1. Install Dependencies:
+
+Run the following command to install the dependencies for both the frontend and backend:
+
+```bash
+composer install
+```
+
+### 2. Serve the application
+
+Run the following command to serve the applications
+
+```bash
+php artisan serve
+```
